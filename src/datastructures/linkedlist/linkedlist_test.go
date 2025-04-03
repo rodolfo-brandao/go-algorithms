@@ -44,7 +44,7 @@ func TestAppend(t *testing.T) {
 	}
 }
 
-func TestToString(t *testing.T) {
+func TestString(t *testing.T) {
 	l := LinkedList[int]{}
 
 	l.New()
